@@ -1,0 +1,90 @@
+.modalBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  background-color: var(--main-white);
+  border-radius: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-features);
+  border-radius: 15px;
+  min-width: 251px;
+  max-width: 668px;
+  width: 100%;
+  min-height: 144px;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+.back,
+.next {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  padding: 100% 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.back {
+  left: 0;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.next {
+  right: 0;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.arrow {
+  width: 26px;
+  height: 34px;
+  fill: var(--main-color);
+  transition: var(--anim);
+}
+
+.back:active .arrow,
+.next:active .arrow,
+.back:focus-visible .arrow,
+.next:focus-visible .arrow {
+  fill: var(--accent-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .imgContainer {
+    min-width: 668px;
+    max-width: 1045px;
+    width: 100%;
+    min-height: 390px;
+  }
+
+  .arrow {
+    width: 46px;
+    height: 46px;
+  }
+
+  .modalBody {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .back:hover .arrow,
+  .next:hover .arrow {
+    fill: var(--accent-color);
+  }
+}
