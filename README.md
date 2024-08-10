@@ -1,6 +1,6 @@
-# :Camper Rent Application
+# Camper Rent Application
 
-## :Overview
+## Overview
 
 This project is created as part of a technical assignment for a company. <br />
 This is an application for a company that provides camper rentals.
@@ -12,7 +12,7 @@ The application consists of three main pages:
   equipment, and type.
 - `Favorites Page` List of user-added favorite ads.
 
-## :Features
+## Features
 
 - Ad Card: Users can add/remove ads to/from favorites and view detailed camper
   information in a modal.
@@ -22,12 +22,12 @@ The application consists of three main pages:
   page refreshes.
 - Filtering: Users can filter campers by location, equipment, and type.
 
-## :Technical Stack:
+## Technical Stack:
 
 <br />
 <br />
 
-**:Front-end**<br />
+**Front-end**<br />
 
 <p>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
@@ -40,7 +40,7 @@ The application consists of three main pages:
 <br />
 <br />
 
-**:Back-end**<br />
+**Back-end**<br />
 
 <a href="https://mockapi.io" target="_blank" rel="noreferrer">MockAPI</a> for
 development
@@ -48,7 +48,7 @@ development
 <br />
 <br />
 
-**:Libraries and Tools:**<br />
+**Libraries and Tools:**<br />
 
 - Forms and Validation:
   <a href="https://formik.org" target="_blank" rel="noreferrer">Formik</a> and
@@ -69,7 +69,7 @@ development
   <a href="https://github.com/sindresorhus/modern-normalize" target="_blank" rel="noreferrer">modern-normalize</a>
   <br /> <br />
 
-**:Utilites**<br />
+**Utilites**<br />
 
 <a href="https://app.netlify.com" target="_blank" rel="noreferrer">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" alt="netlify" width="40" height="40" />
