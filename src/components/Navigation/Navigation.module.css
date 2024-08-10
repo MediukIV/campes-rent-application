@@ -5,7 +5,7 @@
   padding: 12px;
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
-  background-color: var(--accent-second-color);
+  background-color: #020381;
 }
 
 .navigation {
@@ -27,8 +27,8 @@
   display: flex;
   padding: 8px 12px;
   text-decoration: none;
-  color: var(--accent-second-color);
-  background-color: var(--accent-color);
+  color: #020381;
+  background-color: var(--main-white);
   border: 1px solid var(--main-color);
   border-radius: 100px;
   transition: var(--anim);
@@ -37,12 +37,12 @@
 .navLink:active,
 .navLink:focus-visible {
   color: var(--main-white);
-  background-color: var(--accent-second-color);
+  background-color: #020381;
   border: 1px solid var(--main-color);
 }
 
 .active {
-  color: var(--accent-second-color);
+  color: #020381;
   background-color: var(--main-white);
   border: none;
   transition: var(--anim);
@@ -81,7 +81,7 @@
 @media only screen and (min-width: 1440px) {
   .navLink:hover {
     color: var(--main-white);
-    background-color: var(--accent-second-color);
+    background-color: #020381;
     border: 1px solid var(--main-color);
   }
 }
