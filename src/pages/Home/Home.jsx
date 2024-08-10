@@ -12,7 +12,7 @@ const Home = () => {
           Book a camper today!
         </h2>
         <button type="button" className={css.bookLink}>
-          <Link to="/catalog">Finished?</Link>
+          <Link to="/catalog">Let's go</Link>
         </button>
       </section>
     </>
